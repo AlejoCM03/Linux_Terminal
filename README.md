@@ -1,5 +1,5 @@
 # Terminal de comandos en Linux
-Diseño de terminal que incorpora los siguientes:
+Diseño de terminal que incorpora los siguientes comandos:
 
 1. Infosis: Comando que muestra el Sistema Operativo, Memoria RAM y arquitectura del dispositivo.
 
