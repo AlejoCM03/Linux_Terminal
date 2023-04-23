@@ -45,7 +45,7 @@ echo "Seleccione una opción:"
 echo "1. Reproducir una canción"
 echo "2. Reproducir un repertorio de canciones"
 echo "3. Reproducir canciones de manera aleatoria"
-
+echo "4. Salir"
 read opc
 
 case $opc in
@@ -109,6 +109,8 @@ case $opc in
       fi
     done
     ;;
+    
+  "4") exit ;;
 esac
 done
 
