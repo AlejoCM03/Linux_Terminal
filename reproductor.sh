@@ -16,7 +16,7 @@ echo "Bienvenido al reproductor MP3"
 
 
 if ! command -v mpg123 &>/dev/null || ! command -v cava &>/dev/null; then
-  echo "mpg123 y projectm no se encuentran instalados"
+  echo "mpg123 y cava no se encuentran instalados"
   while true; do
     read -p "¿Desea instalarlo? (s/n): " instalar
     case $instalar in
@@ -27,7 +27,7 @@ if ! command -v mpg123 &>/dev/null || ! command -v cava &>/dev/null; then
         break
         ;;
       [Nn]* )
-        echo "El reproductor MP3 no puede funcionar sin mpg123 y projectm."
+        echo "El reproductor MP3 no puede funcionar sin mpg123 y cava."
         exit
         ;;
       * )
