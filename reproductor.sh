@@ -82,6 +82,7 @@ case $opc in
           opciones
           echo "6. Reproducir siguiente canción - Tecla f"
           echo "7. Reproducir canción anterior - Tecla d"
+          gnome-terminal --tab --title="cava" -- bash -c "cava; exec bash"
           mpg123 "$archivo"/*.mp3
         
       else
@@ -100,10 +101,11 @@ case $opc in
       fi
       archivo=$(echo "$archivo" | sed "s/'//g")
       if [ -d "$archivo" ]; then
-        mpg123 -z "$archivo"/*.mp3
         opciones
         echo "3. Reproducir siguiente canción - Tecla f"
         echo "4. Reproducir canción anterior - Tecla d"
+        gnome-terminal --tab --title="cava" -- bash -c "cava; exec bash"
+        mpg123 -z "$archivo"/*.mp3
       else
         echo "Ruta incorrecta, ingrese una ruta válida."
       fi
