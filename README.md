@@ -31,7 +31,9 @@ pacion de cada uno de ellos.
 
 
 Desarrollado por:
+
 Alejandro Cortes Mora
+
 Samuel Moises Flores Aguirre
 
 Fecha: 22 de Abril de 2023
