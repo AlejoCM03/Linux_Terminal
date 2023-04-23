@@ -37,7 +37,7 @@ echo -e "\e[1;35m             -> creditos    \e[0m    \e[36;4mMuestra los credit
 
 echo ""
 echo ""
-echo -e "\e[1;35m             -> gameGato    \e[0m    \e[36;4mEjecuta el juego del gato \e[0m \e[0m"
+echo -e "\e[1;35m             -> gato    \e[0m    \e[36;4mEjecuta el juego del gato \e[0m \e[0m"
 
 echo ""
 echo ""
